@@ -65,9 +65,6 @@ console.log(seatingStudents([12, 2,4,7,12]));
  * * * * * *
  */
 
-console.log([12, 3,8,5]);
-console.log("EXPECTED: " + 8);
-console.log(seatingStudents([12, 3,8,5]));
 /**
  * ** * ** *
  *  1 *  2 *    1&2 2&4

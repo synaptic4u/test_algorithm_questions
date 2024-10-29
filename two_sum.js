@@ -1,18 +1,21 @@
 /**
- * Find two elements of an array that have the same sum as the number provided.
+ * Find all the sets of two elements of an array that have the same sum as the number provided.
  */
 
-
-const parser = {
-    'query' : null,
+const dataset = {
     'set' : new Set(),
-    'load' : function(queryset){
-
+    'searchTwoSum' : function(sum, sumset){
         
+        for (const element of sumset) {
 
+            let variance = sum - element;
+            
+            if( sumset.includes(variance) ){
+                 
+                this.set.add(element);
+                this.set.add(variance);
+            }
+        }
+        return this.set;
     }
 };
-
-const sum = {};
-
-parser.load( [7, -4, 2, 5, 11, 4, 3, 9, 1]);
