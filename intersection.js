@@ -1,3 +1,5 @@
+//At the moment word is that using a constant object instead of nested or multiple functions and variables the constant with properties and methods is quicker and reduces stack overload for the J's engine. making it marginally more efficient than other options.
+
 const intersection = {
   'result': new Set(),
   'find': function(args){
