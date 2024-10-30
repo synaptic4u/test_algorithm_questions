@@ -4,7 +4,7 @@ const intersection = {
   'result': new Set(),
   'find': function(args){
 
-    (/Create sets taking each element of the array which is a string and then split the string into an array which is passed to the Set constrictor elemanating duplicate numbers and white space.
+    //Create sets taking each element of the array which is a string and then split the string into an array which is passed to the Set constrictor elemanating duplicate numbers and white space.
     let setA = new Set((args[0]).split(","));
     let setB = new Set((args[1]).split(","));
 
