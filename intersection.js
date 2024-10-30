@@ -8,15 +8,13 @@ const intersection = {
     console.log(setA);
     console.log(setB);
 
-foreach(const element of setA){
- if(setA.contains(element)){
-   this.result.push(element);
-}
+    foreach(const element of setA){
+      if(setA.contains(element)){
+        this.result.push(element);
+      }
+    }
 
-
-}
-
-  
+    console.log(this.result);
 
     return this.result;
   }  
